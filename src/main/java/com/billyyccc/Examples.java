@@ -15,6 +15,14 @@ import java.time.LocalDate;
 
 import static com.billyyccc.Scripts.*;
 
+/**
+ * In this example we will create a simple TODO example.
+ * Steps:
+ * 1. create a table
+ * 2. insert some records
+ * 3. get all records
+ * 4. drop the table
+ */
 public class Examples {
   private static SqlClient client;
   private static MSSQLConnectOptions connectOptions = loadConnectOptions();
