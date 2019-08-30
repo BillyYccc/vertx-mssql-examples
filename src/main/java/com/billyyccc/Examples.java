@@ -155,8 +155,8 @@ public class Examples {
       int id = row.getInteger("id");
       String todoContent = row.getString("todo_content");
       int priority = row.getInteger("priority");
-      LocalDate createdDate = row.getLocalDate(4);
-      LocalDate deadline = row.getLocalDate(5);
+      LocalDate createdDate = row.getLocalDate("created_date");
+      LocalDate deadline = row.getLocalDate("deadline");
       boolean isDone = row.getBoolean("is_done");
       System.out.println("TODO id: " + id +
         ", content: " + todoContent +
